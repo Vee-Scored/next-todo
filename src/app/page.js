@@ -9,7 +9,7 @@ import { lazy, Suspense } from "react";
 export default function Home() {
   return (
     <div className="p-5 mx-auto max-w-lg">
-      <h2>Todo App</h2>
+      <h2 className="text-2xl font-semibold">Todo App</h2>
       <CreateTaskForm/>
       <Suspense fallback={<SkeLetonLoader/>}>
         <TaskLIstContainer/>
